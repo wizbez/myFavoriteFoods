@@ -1,0 +1,234 @@
+body
+{
+    background-color: #fff;
+    font-family: Helvetica;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #607476;
+    font-weight: 600;
+}
+
+h2
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+    color: #3399FF;
+    font-weight: 700;
+}
+
+.wrapper
+{
+    padding: none;
+    margin-top: -16px;
+    width: 100%;
+}
+
+nav
+{
+    height: 5em;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 1px solid #ddd;
+    overflow: auto;
+}
+
+li
+{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+}
+
+nav li
+{
+    margin-top: .5em;
+}
+
+.menu-button-right
+{
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #3399FF;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    height: 3em;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.menu-button-left:link
+{
+    float: left;
+    vertical-align: middle;
+    padding-right: 10px;
+    color: #607476;
+    font-weight: 600;
+    height: 50px;
+}
+
+.menu-button-left:hover
+{
+    background-color: #ccc;
+}
+
+.menu-button-left
+{
+    float: left;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #607476;
+    font-weight: 600;
+    height: 50px;
+}
+
+#menu-image
+{
+    width: 50px;
+}
+
+.banner 
+{ 
+    position: relative; 
+    overflow: auto; 
+    width: 100%;
+    margin-left: 0;
+}
+
+.banner li 
+{ 
+    width: 95%;
+    float: left;
+    list-style: none; 
+}
+
+.banner ul li
+{
+    margin-left: 0;
+    width: 95%;
+    align-content: center;
+}
+
+.banner ul li img
+{
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.bxslider
+{
+    width: 95%;
+    height: 500px;
+}
+
+.bx-viewport
+{
+    height: 40% !important;
+}
+
+.text
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.footer
+{
+    width: 100%;
+    float: left;
+    border-top: 1px solid #ddd;
+}
+
+.footer a
+{
+    display: block;
+    margin-top: 30px;    
+    float: left;
+    margin-left: 20%;
+    height: 100px;
+}
+
+.footer:before
+{
+    content: "";
+    height: 20px;
+    width: 100%;
+    float: left;
+}
+
+.map
+{
+    display: block;
+    vertical-align: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.map iframe
+{
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    display: block;
+}
+
+.map img
+{
+    display: block;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.about
+{
+    float: left;
+    width: 49%;
+    align-content: center;
+}
+
+.about img
+{
+    width: 30%;
+    margin-left: 35%;
+    align-self: center;
+    float: none;
+}
+
+.about#bora
+{
+    padding-left: 0.5%;
+    border-left: 1px solid #ddd;
+}
+
+.about#cam
+{
+    padding-right: 0.5%;
+}
+
+.videos iframe
+{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: auto;
+}
